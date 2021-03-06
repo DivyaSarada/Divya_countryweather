@@ -48,7 +48,7 @@ data
         btn1.setAttribute("class", "btn btn-warning");
         btn1.innerHTML = "Click for Weather";
         btn1.addEventListener("click", function () {
-           let wdata=fetch("http://api.openweathermap.org/data/2.5/weather?q=" +
+           let wdata=fetch("https://api.openweathermap.org/data/2.5/weather?q=" +
            data[j].name +
            "&appid=c7457b931c2f802ff6ceb57e71c1594a"
        )
